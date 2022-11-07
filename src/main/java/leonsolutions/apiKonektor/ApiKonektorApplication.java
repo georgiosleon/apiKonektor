@@ -1,22 +1,23 @@
 package leonsolutions.apiKonektor;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.tinylog.Logger;
-import org.tinylog.TaggedLogger;
 
+
+@Slf4j
 @SpringBootApplication
 public class ApiKonektorApplication {
 
 	public static void main(String[] args) {
 
-		TaggedLogger logger = Logger.tag("  ApiKonektorApplication - (c) 2022 ");
-		logger.warn  ("@@@@@@@@@@@");
-		logger.debug ("@@@@@@@@@@@");
-		logger.error ("@@@@@@@@@@@");
+//		TaggedLogger logger = Logger.tag("  ApiKonektorApplication - (c) 2022 ");
+		log.warn("@@@@@@@@@@@");
+		log.debug("@@@@@@@@@@@");
+		log.error("@@@@@@@@@@@");
 		SpringApplication.run(ApiKonektorApplication.class, args);
-		logger.info  ("@@@@@@@@@@@");
-		logger.info  ("All ok. system started... ");
+		log.info("@@@@@@@@@@@");
+		log.info("All ok. system started... ");
 	}
 
 }
