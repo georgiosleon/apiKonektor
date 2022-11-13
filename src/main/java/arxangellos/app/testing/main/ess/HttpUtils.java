@@ -23,7 +23,7 @@ public class HttpUtils {
         // todo parse requestBody   and extract  variables  into Map < String  , String >
         // todo maybe get Mediatype from file suffix
 
-        String SOAPAction = "http://www.europa.eu/schengen/ees/webservice/v1/DataEntry";
+        String SOAPAction = "";
 
         String contentTypeWithCharSet = "text/xml" + "; charset=" + StandardCharsets.UTF_8.name();
 
