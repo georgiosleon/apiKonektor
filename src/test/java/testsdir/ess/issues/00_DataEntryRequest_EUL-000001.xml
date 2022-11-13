@@ -1,53 +1,22 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:v1="http://www.europa.eu/schengen/ees-ns/xsd/v1" xmlns:v11="http://www.europa.eu/schengen/ees/xsd/v1" xmlns:v12="http://www.europa.eu/schengen/shared/xsd/v1" xmlns:com="http://www.europa.eu/schengen/vis/xsd/v3/types/Common" xmlns:app="http://www.europa.eu/schengen/vis/xsd/v3/types/Application" xmlns:v13="http://www.europa.eu/schengen/etias/xsd/v1">
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+    xmlns:v1="http:////-ns/xsd/v1"
+    xmlns:v11="http://///xsd/v1"
+>
    <soap:Header>
       <v1:RequestHeader>
-         <v11:TransactionID>7766042483</v11:TransactionID>
+         <v11:TransactionID></v11:TransactionID>
          <v11:Variant>5014</v11:Variant>
-         <v11:SystemID>yiSJnrKXrI8ZfeNcmsUFPFfZJM9JYUaySrR</v11:SystemID>
-         <v11:Timestamp>2022-05-20T13:11:42Z</v11:Timestamp>
-         <v11:EndUserID>3fsNxjXB4cLe.0w1n.RqydKnFaf7zyFYMTBbulPwTpuCSNwM6RoXZDntUpHlcJkSBxA.08BMI2</v11:EndUserID>
+         <v11:Timestamp></v11:Timestamp>
          <v1:User>
-            <v11:User xmlns:v11="http://www.europa.eu/schengen/ees/xsd/v1">0021.01</v11:User>
-            <v11:Authority xmlns:v11="http://www.europa.eu/schengen/ees/xsd/v1">POLatosBP</v11:Authority>
-            <v11:EndUserRole xmlns:v11="http://www.europa.eu/schengen/ees/xsd/v1">5002</v11:EndUserRole>
+            <v11:User xmlns:v11="http://///xsd/v1">0021.01</v11:User>
+            <v11:Authority xmlns:v11="http://///xsd/v1">POLatosBP</v11:Authority>
+            <v11:EndUserRole xmlns:v11="http://///xsd/v1">5002</v11:EndUserRole>
          </v1:User>
       </v1:RequestHeader>
    </soap:Header>
    <soap:Body>
       <v1:DataEntryRequest>
          <Create>
-            <TravellerFile>
-               <v1:TravelDocument>
-                  <v12:FamilyName>
-                     <v12:PrimaryValue>JOHNSON</v12:PrimaryValue>
-                  </v12:FamilyName>
-                  <v12:FirstName>
-                     <v12:PrimaryValue>JIMMY</v12:PrimaryValue>
-                  </v12:FirstName>
-                  <v12:DateOfBirth>20000101</v12:DateOfBirth>
-                  <v12:Nationality>0003.01</v12:Nationality>
-                  <v12:Gender>0001.01</v12:Gender>
-                  <v12:DocumentNumber>ALB0000000</v12:DocumentNumber>
-                  <v12:DocumentType>0001.01</v12:DocumentType>
-                  <v12:ValidUntil>2025-01-01</v12:ValidUntil>
-               </v1:TravelDocument>
-               <v1:FI>
-                  <v11:NotProvidedReason>0001.01</v11:NotProvidedReason>
-               </v1:FI>
-               <v1:FP>
-                  <v11:NotProvidedReason>0001.01</v11:NotProvidedReason>
-               </v1:FP>
-               <EntryRecord>
-                  <v11:BorderCrossingTimestamp>2022-05-09T10:00:00+02:00</v11:BorderCrossingTimestamp>
-                  <v11:AuthorisedStayUntil>2022-08-09T10:00:00+02:00</v11:AuthorisedStayUntil>
-                  <v11:BorderCrossingPoint>POLatosBP</v11:BorderCrossingPoint>
-                  <v11:PersonStatus>0001.01</v11:PersonStatus>
-               </EntryRecord>
-               <ExitRecord>
-                  <v11:BorderCrossingPoint>POLatosBP</v11:BorderCrossingPoint>
-                  <v11:BorderCrossingTimestamp>2022-05-10T00:05:00+02:00</v11:BorderCrossingTimestamp>
-               </ExitRecord>
-            </TravellerFile>
          </Create>
       </v1:DataEntryRequest>
    </soap:Body>
