@@ -929,6 +929,14 @@
           }
         }
       }
+    },
+    "/": {
+      "post": {
+        "summary": "create",
+        "tags": [],
+        "responses": {},
+        "operationId": "post"
+      }
     }
   },
   "components": {
@@ -1221,5 +1229,6 @@
         "in": "header"
       }
     }
-  }
+  },
+  "x-internal": true
 }
